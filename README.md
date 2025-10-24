@@ -3,6 +3,7 @@
 ## 🎯 Overview  
 
 This project focused on analyzing the **performance and user engagement** of my company’s **landing page**, which serves as a critical entry point for user conversion and content discovery.  
+
 The initiative was led in collaboration with the **audiovisual production team**, who aimed to identify which page elements (videos, visuals, or text) increased user retention and interaction.  
 
 The project combined **data scraping, relational modeling, inferential statistics, and dashboard visualization** to deliver actionable insights that informed both **creative design and product strategy**.  
@@ -21,9 +22,8 @@ The project combined **data scraping, relational modeling, inferential statistic
 
 ### **2️⃣ KPI Design & Approval**
 - Proposed a set of **core KPIs** focused on engagement and retention:
-  - CTR (Click-Through Rate)
+  - Performance of landing page contents
   - Avg. Watch Time
-  - Scroll Depth
   - Conversion Funnel Drop-offs
   - Revenue Share per Partner  
 - Presented these metrics to stakeholders for validation prior to data collection.  
@@ -47,8 +47,8 @@ The project combined **data scraping, relational modeling, inferential statistic
 ### **4️⃣ Statistical Analysis & Sampling**
 - Applied **stratified sampling** to ensure balanced representation of users and sessions.  
 - Conducted **inferential analyses**:
-  - Variance comparison tests (F-tests)
-  - Effect size calculation (Cohen’s d)
+  - Variance comparison tests (Kruskall_wallis-tests)
+  - Effect size calculation (epsilon's squared)
   - Confidence intervals for engagement metrics  
 - Used statistical insights to **refine KPI thresholds** and define baselines for experimentation.  
 
@@ -70,8 +70,10 @@ The project combined **data scraping, relational modeling, inferential statistic
 - Built **multivariable filtering models** in Power BI for dynamic slicing by:
   - Content type
   - Partner
+  - Skills
+  - Format
+  - Competence
   - Time period
-  - Device type  
 - Collaborated with web developers to **add URL tracking parameters**, improving event-level traceability on the landing page.  
 
 🧰 *Tools:* Power BI · Power Query · Web Analytics Integration  
