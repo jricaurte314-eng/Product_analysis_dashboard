@@ -1,5 +1,5 @@
 # 🎬 Landing Page Product Analytics – AWS · Power BI · Statistical Experimentation
-
+All content shown here has been recreated with synthetic and anonymized data in compliance with confidentiality agreements.
 ## 🎯 Overview  
 
 This project focused on analyzing the **performance and user engagement** of my company’s **landing page**, which serves as a critical entry point for user conversion and content discovery.  
