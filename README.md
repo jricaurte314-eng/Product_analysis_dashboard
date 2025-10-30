@@ -32,19 +32,7 @@ The project combined **data scraping, relational modeling, inferential statistic
 
 ---
 
-### **3️⃣ Data Extraction & Modeling**
-- Performed **web scraping from AWS-hosted landing page data** (consumption logs, event clicks, partner data).  
-- Designed a **relational data model** integrating:
-  - User interaction data (clicks, scrolls)
-  - Content metadata from audiovisual production
-  - Revenue share per partner  
-- Ensured data consistency and relational integrity across different sources.  
-
-🧰 *Tools:* Python (BeautifulSoup, Pandas) · SQL · AWS S3 · Power BI  
-
----
-
-### **4️⃣ Statistical Analysis & Sampling**
+### **3️⃣ Statistical Analysis & Sampling**
 - Applied **stratified sampling** to ensure balanced representation of users and sessions.  
 - Conducted **inferential analyses**:
   - Variance comparison tests (Kruskall_wallis-tests)
@@ -103,46 +91,9 @@ The project combined **data scraping, relational modeling, inferential statistic
 
 | Category | Tools & Technologies |
 |-----------|---------------------|
-| Data Sources | AWS Logs · Web Clickstream · Partner Revenue Data |
 | Data Engineering | Python (BeautifulSoup, Pandas) · SQL · Power Query |
 | Statistics | Python (scipy, statsmodels) · R (tidyverse) |
 | Visualization | Power BI (DAX, KPIs, Filters) |
 | Collaboration | Stakeholder Sessions · Experimentation Framework |
 
 ---
-
-## 📁 Folder Structure  
-
-```markdown
-landingpage_product_analytics/
-│
-├── 📘 README.md                      # Project documentation
-│
-├── 📂 notebooks/
-│   ├── 01_kpi_design.ipynb           # KPI exploration and definition
-│   ├── 02_data_scraping_aws.ipynb    # Web scraping and data extraction
-│   ├── 03_relational_modeling.ipynb  # Schema creation and joins
-│   ├── 04_statistical_analysis.ipynb # Sampling, variance tests, effect size
-│   ├── 05_dashboard_metrics.ipynb    # KPI validation and visualization design
-│
-├── 📂 data/
-│   ├── raw_aws_logs.csv              # Scraped landing data (anonymized)
-│   ├── partner_revenue.csv           # Partner revenue information
-│   ├── content_metadata.csv          # Audiovisual content metadata
-│   ├── clickstream_data.csv          # User interaction logs
-│   └── sampling_results.csv          # Stratified sampling data
-│
-├── 📂 dashboard/
-│   ├── landing_dashboard.pbix        # Final Power BI dashboard
-│   ├── dax_measures.txt              # Key DAX metrics
-│   └── powerquery_scripts.m          # Power Query ETL transformations
-│
-├── 📂 reports/
-│   ├── dashboard_preview.png         # Dashboard screenshot
-│   ├── pilot_experiment_results.pdf  # Experimentation summary
-│   └── statistical_summary.xlsx      # Statistical analysis results
-│
-└── 📂 docs/
-    ├── kpi_definitions.md            # KPI dictionary and formulas
-    ├── stakeholder_feedback.md       # Iteration notes
-    └── lessons_learned.md
